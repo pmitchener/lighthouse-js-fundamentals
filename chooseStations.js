@@ -11,7 +11,7 @@ const chooseStations = function (listOfStations)
   {
     if(station[1] < 20 || (station[2] !== "school" && station[2] !== "community centre"))
     {
-        continue;
+      continue;
     }
     listOfNames.push(station[0]);
   }

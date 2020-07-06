@@ -5,20 +5,20 @@ const finalPosition = function (moves){
   {
     switch(move)//light house loabs lint had issue with the indents on my switch statement. I had to move everything backwards to get lint to pass.
     {
-    case "north":
-      y++;
-      break;
-    case "south":
-      y--;
-      break;
-    case "east":
-      x++;
-      break;
-    case "west":
-      x--;
-      break;
-    default:
-      break;
+      case "north":
+        y++;
+        break;
+      case "south":
+        y--;
+        break;
+      case "east":
+        x++;
+        break;
+      case "west":
+        x--;
+        break;
+      default:
+        break;
     }
   }
   return [x, y];
